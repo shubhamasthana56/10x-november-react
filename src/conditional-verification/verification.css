@@ -1,0 +1,18 @@
+.alert {
+    display: flex;
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.failure {
+    color: red;
+    border: 1px solid red;
+}
+.success {
+    color: green;
+    border: 1px solid green;
+}
