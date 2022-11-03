@@ -1,0 +1,16 @@
+.form { 
+    width: 100%;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.form-attr label {
+    margin: 20px;
+}
+
+.form-attr input {
+    margin: 20px;
+}
+
+.error {
+    color: red;
+}

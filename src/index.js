@@ -12,6 +12,9 @@ import AgeVerification from './conditional-verification/verification';
 import VirtualDom from './virtualDom/virtualDom';
 import UserSideEffect from './user-sideeffect/user-sideeffect';
 import CountryInfo from './user-sideeffect/useEffectWith-dependency';
+import LoadingExample from './loading-example/loading';
+import Post from './loading-example/post';
+import FormValidation from './validation/validation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,8 +29,11 @@ root.render(
   {/* <Form/> */}
   {/* <UserList/> */}
   {/* <AgeVerification/> */}
-  <UserSideEffect/>
-  <CountryInfo/>
+  {/* <UserSideEffect/>
+  <CountryInfo/> */}
+  {/* <LoadingExample/> */}
+  {/* <Post/> */}
+  <FormValidation/>
   </div>
  
 );
