@@ -13,8 +13,11 @@ import VirtualDom from './virtualDom/virtualDom';
 import UserSideEffect from './user-sideeffect/user-sideeffect';
 import CountryInfo from './user-sideeffect/useEffectWith-dependency';
 import LoadingExample from './loading-example/loading';
-import Post from './loading-example/post';
 import FormValidation from './validation/validation';
+import Chat from './context-consumers/chat/chat';
+import Post from './context-consumers/post/post';
+import Comment from './context-consumers/comment/comment';
+import NotificationProvider from './context/notification-provider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,7 +36,13 @@ root.render(
   <CountryInfo/> */}
   {/* <LoadingExample/> */}
   {/* <Post/> */}
-  <FormValidation/>
+  {/* <FormValidation/> */}
+  <NotificationProvider>
+    <Chat/>
+    <Post/>
+    <Comment/>
+  </NotificationProvider>
+ 
   </div>
  
 );
