@@ -1,12 +1,16 @@
 import Edit from "./edit-comment/edit";
 import Delete from "./delete-comment/delete";
+import { ThemeContext } from "../../context/context";
+import { useContext } from "react";
 const Comment = ()=> {
+    debugger
+    const {theme} = useContext(ThemeContext)
     return (
-        <div>
-            <Edit/>
-            <Delete/>
+        <>
+            <Edit theme={theme}/>
+            <Delete theme={theme}/>
             
-        </div>
+        </>
     )
 }
 export default Comment;
