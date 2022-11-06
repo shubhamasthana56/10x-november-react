@@ -20,6 +20,7 @@ import NotificationProvider from './context/notification-provider';
 import Counter from './context-consumers/counter/counter';
 import ToggleTheme from './context-consumers/ToggleTheme/toggle-theme';
 import ThemeProvider from './context/theme-provider';
+import CounterReducer from './Reducer/counter-with-reducer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,7 +40,7 @@ root.render(
   {/* <LoadingExample/> */}
   {/* <Post/> */}
   {/* <FormValidation/> */}
-  <ThemeProvider>
+  {/* <ThemeProvider>
     <NotificationProvider>
       <ToggleTheme/>
       <Chat/>
@@ -48,8 +49,8 @@ root.render(
       <Counter/>
     </NotificationProvider>
   </ThemeProvider>
-  
- 
+   */}
+  <CounterReducer/>
   </div>
  
 );
