@@ -21,6 +21,7 @@ import Counter from './context-consumers/counter/counter';
 import ToggleTheme from './context-consumers/ToggleTheme/toggle-theme';
 import ThemeProvider from './context/theme-provider';
 import CounterReducer from './Reducer/counter-with-reducer';
+import ToDo from './todo-assignment/todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -50,7 +51,8 @@ root.render(
     </NotificationProvider>
   </ThemeProvider>
    */}
-  <CounterReducer/>
+  {/* <CounterReducer/> */}
+  <ToDo/>
   </div>
  
 );
