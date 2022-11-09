@@ -22,6 +22,11 @@ import ToggleTheme from './context-consumers/ToggleTheme/toggle-theme';
 import ThemeProvider from './context/theme-provider';
 import CounterReducer from './Reducer/counter-with-reducer';
 import ToDo from './todo-assignment/todo';
+import RefExample from './ref/ref-example';
+import FormExample from './ref/form-example';
+import Debugging from './debugging-session /debugging';
+import Performance from './performance/performance';
+import SlowComponent from './slow-component/slow-component';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,7 +57,12 @@ root.render(
   </ThemeProvider>
    */}
   {/* <CounterReducer/> */}
-  <ToDo/>
+  {/* <ToDo/> */}
+  {/* <RefExample/> */}
+  {/* <FormExample/> */}
+  {/* <Debugging/> */}
+  {/* <Performance/> */}
+  <SlowComponent/>
   </div>
  
 );

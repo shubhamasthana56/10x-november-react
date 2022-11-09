@@ -1,0 +1,13 @@
+.container {
+    width: 200px;
+    height: 500px;
+    border:1px solid gray;
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+.light {
+    background-color: white;
+    color: black;
+}
