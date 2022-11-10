@@ -1,10 +1,8 @@
 import { forwardRef } from "react";
 const FormElement = (props, ref)=> {
-    debugger
     const handleSubmit = (e)=> {
         e.preventDefault();
         console.log(ref);
-        debugger
     }
     return (
         <>

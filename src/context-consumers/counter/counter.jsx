@@ -1,7 +1,6 @@
 import { NotificationContext } from "../../context/context";
 import { useContext } from "react";
 const Counter = ()=> {
-    debugger
     const {handleCounter} = useContext(NotificationContext);
     return (
         <div>

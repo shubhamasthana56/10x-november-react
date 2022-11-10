@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { NotificationContext } from "../../../context/context";
 import "./edit.css";
 const Edit = (props)=> {
-    debugger
     const contextData = useContext(NotificationContext)
     //{notification: "",count:"", handleCounter: fn()}
     return (

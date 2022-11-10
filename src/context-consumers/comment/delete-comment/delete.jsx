@@ -1,7 +1,6 @@
 import { NotificationContext } from "../../../context/context";
 import { useContext } from "react";
 const Delete = (props)=> {
-    debugger
     const {notification, count} = useContext(NotificationContext);
     return (
         <div>

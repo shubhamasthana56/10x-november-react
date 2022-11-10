@@ -2,7 +2,6 @@ import { useState } from "react"
 
 const VirtualDom = ()=> {
     const [value, setValue] = useState(0)
-    debugger
     return (
         <div>
             <div>I am fixed div</div>

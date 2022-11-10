@@ -1,6 +1,5 @@
 import React from "react";
 const PerformanceChild = (props)=> {
-    debugger
     // to memorize props value and update when value is changed
     return (
     <>

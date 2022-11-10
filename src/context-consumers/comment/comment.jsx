@@ -3,7 +3,6 @@ import Delete from "./delete-comment/delete";
 import { ThemeContext } from "../../context/context";
 import { useContext } from "react";
 const Comment = ()=> {
-    debugger
     const {theme} = useContext(ThemeContext)
     return (
         <>

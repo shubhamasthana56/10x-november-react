@@ -27,10 +27,12 @@ import FormExample from './ref/form-example';
 import Debugging from './debugging-session /debugging';
 import Performance from './performance/performance';
 import SlowComponent from './slow-component/slow-component';
+import App from './app';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
+    <App/>
     {/* <MyFirstComponent/>
  <MyFirstComponentCopy/> */}
   {/* <Product/> */}
@@ -62,7 +64,7 @@ root.render(
   {/* <FormExample/> */}
   {/* <Debugging/> */}
   {/* <Performance/> */}
-  <SlowComponent/>
+  {/* <SlowComponent/> */}
   </div>
  
 );

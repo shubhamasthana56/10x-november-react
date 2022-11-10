@@ -33,7 +33,6 @@ const Counter = ()=> {
         }
     }
     const handleChange = (e)=> {
-        debugger
         setCountValue(parseInt(e.target.value));
     }
     return (

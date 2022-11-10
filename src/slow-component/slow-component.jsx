@@ -20,7 +20,6 @@ const SlowComponent = ()=> {
     const memoisedSlow = useMemo(()=> {
         return slowFunction(number);
     }, [number]);
-    debugger
     //slowFunction(number);
     // useEffect(()=> {
         
