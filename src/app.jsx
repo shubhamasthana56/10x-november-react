@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./404/404-notfound";
+import {CounterClass} from "./class-component/counter-class";
 import Content from "./content/content";
+import LoadingExample from "./loading-example/loading";
 import Login from "./login/login";
 import Order from "./order/order";
 import ProtectedRoutes from "./Protected-routes/protected-routes";
@@ -22,6 +24,8 @@ const App = ()=> {
                     <Route path="/form" element={<FormExample/>}/>
                     <Route path="/slow" element={<SlowComponent/>}/>
                     <Route path="/login" element={<Login/>}/>
+                    <Route path="/loading" element={<LoadingExample/>}/>
+                    <Route path="/class" element={<CounterClass/>}/>
                     <Route element={<ProtectedRoutes/>}>
                         <Route path="/orders" element={<Order/>}/>
                         <Route path="/accounts" element={<div>Account Component !</div>}/>
