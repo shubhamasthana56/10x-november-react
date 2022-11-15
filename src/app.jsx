@@ -12,6 +12,7 @@ import FormExample from "./ref/form-example";
 import RefExample from "./ref/ref-example";
 import SlowComponent from "./slow-component/slow-component";
 import ToDo from "./todo-assignment/todo";
+import ReduxCounter from "./redux-counter/redux-counter";
 const App = ()=> {
     return (
         <>
@@ -29,6 +30,7 @@ const App = ()=> {
                     <Route path="/class" element={<CounterClass/>}/>
                     <Route path="/signup" element={<Registration/>}/>
                     <Route path="/login" element={<Login/>}/>
+                    <Route path="/redux-counter" element={<ReduxCounter/>}/>
                     <Route element={<ProtectedRoutes/>}>
                         <Route path="/orders" element={<Order/>}/>
                         <Route path="/accounts" element={<div>Account Component !</div>}/>
