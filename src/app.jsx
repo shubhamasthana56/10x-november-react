@@ -1,9 +1,10 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NotFound from "./404/404-notfound";
+import Registration from "./authentication/signup";
 import {CounterClass} from "./class-component/counter-class";
 import Content from "./content/content";
 import LoadingExample from "./loading-example/loading";
-import Login from "./login/login";
+import Login from "./authentication/sign-in";
 import Order from "./order/order";
 import ProtectedRoutes from "./Protected-routes/protected-routes";
 import CounterReducer from "./Reducer/counter-with-reducer";
@@ -26,6 +27,8 @@ const App = ()=> {
                     <Route path="/login" element={<Login/>}/>
                     <Route path="/loading" element={<LoadingExample/>}/>
                     <Route path="/class" element={<CounterClass/>}/>
+                    <Route path="/signup" element={<Registration/>}/>
+                    <Route path="/login" element={<Login/>}/>
                     <Route element={<ProtectedRoutes/>}>
                         <Route path="/orders" element={<Order/>}/>
                         <Route path="/accounts" element={<div>Account Component !</div>}/>
